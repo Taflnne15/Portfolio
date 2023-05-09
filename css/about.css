@@ -1,0 +1,33 @@
+ .container-fluid .row .col{
+    color: white;
+    height: 1000px;
+    
+      }
+      .card{
+
+margin-top: 150px;
+z-index: 900;
+margin-left: 150px;
+border: 15px  rgb(240, 78, 105) solid;
+box-shadow: 2px 2px 20px rgb(240, 78, 105) ;
+      }
+  h5{
+
+   font-weight: 700;
+  }
+  p{
+
+    font-weight: 700;
+  }
+  h1{
+color:  rgb(240, 78, 105);
+    font-weight: 900;
+    text-align: center;
+  }
+  h2{
+font-weight: 700;
+    text-align: left;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 30px;
+
+  }

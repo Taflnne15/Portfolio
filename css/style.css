@@ -13,6 +13,7 @@ nav {
   border-bottom: 2px solid white;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .nav .navbar{
@@ -50,15 +51,39 @@ margin-top: 100px;
   }
   h1{
     font-family: 'Chivo Mono', monospace;
+    color:  rgb(240, 78, 105);
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  h2{
+    font-family: 'Chivo Mono', monospace;
     color: white;
     font-weight: bold;
+    font-size: 40px;
   }
   h3{
     color: white;
-     font-family: 'Inter', sans-serif;;
+     font-family: 'Inter', sans-serif;
+     font-size: 30px;
 
   }
 
-    
+   #landing-page .container-fluid .btn{
+      margin-top: 80px;
+      background-color:  rgb(240, 78, 105);
+      
+      font-size: larger;
+      font-weight: 900;
+      width: 40%;
+      height: 40px;
+      color: black;
 
- 
+
+  }
+  #landing-page .container-fluid .btn:hover{
+    box-shadow: 2px 2px 20px  rgb(240, 78, 105);
+  }
+  box-shadow: 2px 2px 20px  rgb(240, 78, 105);
+
+    
