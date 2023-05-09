@@ -16,6 +16,18 @@ nav {
   
 }
 
+.square{
+  width:500px;
+  height:500px;
+  color:white;
+  background-color: white;
+}
+
+.lightbulb{
+  background-color:black;
+  color:black;
+}
+
 .nav .navbar{
   float: right;
 }
@@ -50,21 +62,21 @@ body{
 margin-top: 100px; 
   }
   h1{
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Fira Sans', sans-serif;;
     color:  rgb(240, 78, 105);
     font-weight: bold;
     font-size: 50px;
   }
 
   h2{
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Fira Sans', sans-serif;
     color: white;
     font-weight: bold;
     font-size: 40px;
   }
   h3{
     color: white;
-     font-family: 'Inter', sans-serif;
+     font-family: 'Fira Sans', sans-serif;
      font-size: 30px;
 
   }

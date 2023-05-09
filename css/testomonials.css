@@ -1,0 +1,25 @@
+body{
+
+
+    background-color: black;
+}
+
+ .container-fluid .row{ 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    border: 1px 1px;
+    
+}
+ 
+h1{
+
+    text-align: center;
+    color:  rgb(240, 78, 105);
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 60px;
+    font-weight: 900;
+    
+}
