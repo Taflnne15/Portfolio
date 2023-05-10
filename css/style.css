@@ -62,7 +62,7 @@ body{
 margin-top: 100px; 
   }
   h1{
-    font-family: 'Fira Sans', sans-serif;;
+    font-family: 'Fira Sans', sans-serif;
     color:  rgb(240, 78, 105);
     font-weight: bold;
     font-size: 50px;
@@ -96,6 +96,11 @@ margin-top: 100px;
   #landing-page .container-fluid .btn:hover{
     box-shadow: 2px 2px 20px  rgb(240, 78, 105);
   }
-  box-shadow: 2px 2px 20px  rgb(240, 78, 105);
+  
+  img{
+
+box-shadow: 2px 2px 20px  white;
+    
+  }
 
     

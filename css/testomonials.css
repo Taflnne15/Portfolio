@@ -4,15 +4,14 @@ body{
     background-color: black;
 }
 
- .container-fluid .row{ 
+/* .card{ 
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 60px;
     border: 1px 1px;
-    
-}
+
+} */
  
 h1{
 
@@ -23,3 +22,10 @@ h1{
     font-weight: 900;
     
 }
+h5{
+
+  color:  rgb(240, 78, 105);  
+}
+
+
+
