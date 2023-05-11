@@ -6,29 +6,35 @@
     <title>About Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/about.css">
+      <!-- link to style.css -->
+      <link rel="stylesheet" href="../css/style.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="../images/NEW TAFF LOGO.png" type="image/x-icon"/>
   </head>
-
-  <nav>
-   
-    <img src="../images/NEW TAFF LOGO.png" alt="logo" width="170px" height="110px  ">
-    
-    
-    <ul class="navbar">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./projects.html">Project</a></li>
-        <li><a href="./testomonials.html">Testimonial</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-  
-       </ul>
-  </nav>
-
   <body>
-    <section id="Bio">
+    <header>
+      <nav>
+          <!-- logo image -->
+          <div class="logo-img">
+            <img src="../images/NEW TAFF LOGO.png" alt="logo">
+          </div>
+        
+      <!-- navigation bar -->
+        <ul class="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html"><span class="highlight">About</span></a></li>
+          <li><a href="./projects.html">Project</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./testimonial.html">Testimonial</a></li>
+          <li><a href="./contact.html">Contact</a></li>
 
+        </ul>
+      </nav>
+  </header>
+    <section id="Bio">
         <div class="container-fluid">
             <div class="row">
               <div class="col bg-black">
@@ -47,13 +53,17 @@
                     </div>
                   </div>
               </div>
-              <div class="col bg-black pt-5" >
+              
+              <div class="col bg-black pt-5 move" >
                 <h1>Hello There</h1>
-                <h2>Here is more about what I am and what I do: <br><br> </h2>
+                <h2>Here is more about what I am and what I do: <br> </h2>
                    <h3>My full name is Taflynne Summer Petersen , age 18. <br> Matriculated in 2022 at Muizenberg High School.
                     To describe who I am in one word is introspective. I am observant and I examine things. However I am talented and creative too.<br>
                     I am a musician , I play guitar and bass guitar as well as alto singing. These i would say are skills as i have been tested for them.<br>
-                    Some of my favourite hobbies include: baking, reading, basketball and photography.
+                    Some of my favourite hobbies include: baking, reading, basketball and photography. 
+                    <br>
+                    How I started to enjoy and grow a love for coding, is through my ex-bestfriend and for the love of technology. I was always intrigued by Web development and the work that goes into.
+                    To understand what is being done and how everything relates. This was my starting point of drawing closer to the industry as a whole.
 
                 </h3> 
                
@@ -66,43 +76,41 @@
 
 </section>
 
-<center id="Work-Experince">
-     
-    <center><h1>Work Experience</h1></center>
+<section id="Work-Experince">
+  <div class="container">
 
-     <h2>Here is a brief description of my previous work experience:</h2></center><br>
-      <center><h3>
-During covid I received my first job oppotunity to babysitt for a couple who were at the time essential workers.
-I worked for them through out the whole lockdown restrictions. For more information,for a detailed experience please download my CV down below.
-In my matric year I worked my first formal job at Silver Mountain Spur,there I worked as a hostess, my main responsibility was to seat people and be front of house.<br>
-However, when I needed to do something extra I was always open to do so. Currently I am working a part-time job which is on contract as a retailer in a deli.
-
-      </h3></center>
-
-      <button type="button" class="btn"><a href="./html/contact.html" style="text-decoration: none; color: #000;" > Lets Connect!</a></button>
-
+    <h1>Work Experience</h1>
+  
+     <h2>Here is a brief description of my previous work experience:</h2><br>
+      <h3>
+  During covid I received my first job oppotunity to babysitt for a couple who were at the time essential workers.
+  I worked for them through out the whole lockdown restrictions. For more information,for a detailed experience please download my CV down below.
+  In my matric year I worked my first formal job at Silver Mountain Spur,there I worked as a hostess, my main responsibility was to seat people and be front of house.<
+  However, when I needed to do something extra I was always open to do so. Currently I am working a part-time job which is on contract as a retailer in a deli.
+  
+      </h3>
+  
+      <button type="button" class="btn"><a href="https://docs.google.com/document/d/1R2VwGOhKGv-TQaH5oOtlXkaTMZfMxVP1/edit?usp=share_link&ouid=112425169250657781526&rtpof=true&sd=true" style="text-decoration: none; color: #f577cd;" >Download CV</a></button>
+  
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
+     
 
 
 </section>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- bootstrap js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <!-------------->
+   <footer class="footer">
+    <div class="copy-right">
+      <center><p> Email@ taflynnepetersen@gmail.com <br> Call Me: 062 480 5566 <br> copyright &copy;Taflyne Summer Petersen 2023  </p> </center>
+      <!-- <p>Email@ taflynnepetersen@gmail.com</p> -->
+    <a href="https://www.instagram.com/gypsie_tea/" target="_blank" ><img src="../images/instagram.png" width="70px" height="70px" alt="instagram"></a>
+    <a href="https://www.linkedin.com/login" target="_blank" ><img src="../images/linkedin.png" width="70px" height="70px" alt="linkedin"></a>
+    <a href="https://github.com/Taflnne15" target="_blank" ><img src="../images/github img.png" width="70px" height="70px" alt="github"></a>
+   
+  </footer>
   </body>
+
+
 </html>

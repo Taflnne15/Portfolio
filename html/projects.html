@@ -4,120 +4,89 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects</title>
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- project css link -->
     <link rel="stylesheet" href="../css/projects.css">
+    <!-- style.css link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="../images/NEW TAFF LOGO.png" type="image/x-icon"/>
   </head>
   <body>
-
-    <nav>
-   
-        <img src="../images/NEW TAFF LOGO.png" alt="logo" width="170px" height="110px  ">
-        
-        
-        <ul class="navbar">
+    <header>
+        <nav>
+            <!-- logo image -->
+            <div class="logo-img">
+              <img src="../images/NEW TAFF LOGO.png" alt="logo">
+            </div>
+          
+        <!-- navigation bar -->
+          <ul class="navbar">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="./html/about.html">About</a></li>
-            <li><a href="./html/projects.html">Project</a></li>
-            <li><a href="./html/testomonials.html">Testimonial</a></li>
-            <li><a href="./html/contact.html">Contact</a></li>
-      
-           </ul>
-      </nav>
-
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html"><span class="highlight">Project</span></a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./testimonial.html">Testimonial</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+<main>
     <h1>Projects</h1>
-    <br>
-<section id="flipcard" style="margin: 7rem; width: 100%;">
-    <div class="container"><!--1-->
-      <div class="card"><!--2-->
-          <div class="front"><!--3-->
-              
-              <p>
-                  Front Card 
+<br>
+<br>
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="../images/Calender.png" width="100px" height="100px" class="card-img-top" alt="Calender">
+            <div class="card-body">
+              <h5 class="card-title">Calender Project</h5>
+              <p class="card-text">This project was to help us understand the differnce between columns, grid and tables.
+                We had to make use of bootstrap.
               </p>
+              <a href="https://enchanting-pothos-24065a.netlify.app/" class="btn btn-primary">Check it Out</a>
+              <a href="https://github.com/Taflnne15/calender.git" class="btn btn-primary">Check it Out</a>
+            </div>
           </div>
-          <div class="back"><!--4-->
-              <p>
-                  Back Card
-              </p>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="../images/Waving-hand.png" width="100px" height="100px" class="card-img-top" alt="waving hand">
+            <div class="card-body">
+              <h5 class="card-title">Waving Hand</h5>
+              <p class="card-text">This project was our first animations project. Mine contains of flipcards, and a animated waving hand.It was challenging.</p>
+              <a href=" https://serene-paletas-84fee2.netlify.app/" class="btn btn-primary">Check it Out</a>
+              <a href="https://github.com/Taflnne15/Animation.git" class="btn btn-primary">Check it Out</a>
+            </div>
           </div>
-      </div>
-  </div> 
-
-
-  <div class="container"><!--1-->
-    <div class="card"><!--2-->
-        <div class="front"><!--3-->
-            
-          
-            <p>
-                Front Card 
-            </p>
         </div>
-         <div class="back"> 
-            <p>
-                Back Card
-            </p>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="../images/Home Page.png" width="100px" height="100px" class="card-img-top" alt="Home Page">
+            <div class="card-body">
+              <h5 class="card-title">Home Pg</h5>
+              <p class="card-text">This was our first group project. I worked on the home page in this one.</p>
+              <a href="#" class="btn btn-primary">Check It Out</a>
+            </div>
+          </div>
         </div>
-    </div> 
-</div> 
-
-
-<div class="container"><!--1-->
-  <div class="card"><!--2-->
-      <div class="front"><!--3-->
-          
-        
-          <p>
-              Front Card 
-          </p>
       </div>
-      <div class="back"><!--4-->
-          <p>
-              Back Card
-          </p>
-      </div>
-  </div>
-</div> 
+    </div>
+  
     
-</section>
-
-
-<section id="Skills">
-
-<h1>Skills</h1>
-
-
-<img class="skills" src="../images/github img.png" alt="github" width="300px" height="300px">
-
-<img class="skills"src="../images/html 5img.png" alt="html" width="300px" height="300px">
-
-<img class="skills"src="../images/csss img.webp" alt="css" width="300px" height="300px">
-
-<img class="skills"src="../images/Bs img.png" alt="Bs" width="300px" height="300px">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-      
+</main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
   </body>
+  <footer class="footer">
+    <div class="copy-right">
+      <center><p> Email@ taflynnepetersen@gmail.com <br> Call Me: 062 480 5566 <br> copyright &copy;Taflyne Summer Petersen 2023  </p> </center>
+      <!-- <p>Email@ taflynnepetersen@gmail.com</p> -->
+    <a href="https://www.instagram.com/gypsie_tea/" target="_blank" ><img src="../images/instagram.png" width="70px" height="70px" alt="instagram"></a>
+    <a href="https://www.linkedin.com/login" target="_blank" ><img src="../images/linkedin.png" width="70px" height="70px" alt="linkedin"></a>
+    <a href="https://github.com/Taflnne15" target="_blank" ><img src="../images/github img.png" width="70px" height="70px" alt="github"></a>
+   
+  </footer>
 </html>

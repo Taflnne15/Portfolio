@@ -1,0 +1,30 @@
+ 
+h1{
+    text-align: center;
+    color:  rgb(240, 78, 105);
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 60px;
+    font-weight: 900;
+}
+h5{
+  color:  rgb(240, 78, 105);  
+}
+
+footer img{
+  border-radius: 20px;
+}
+.container .row  .col img{
+  width: 100%;
+}
+
+.container-fluid .row  .col .card{
+  width:260px;
+}
+
+.container-fluid .row{
+  display: flex;
+  flex-direction: row;
+}
+
+
+ 
