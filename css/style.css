@@ -1,3 +1,6 @@
+
+
+/* home pg css */
 * {
   padding: 0;
   margin: 0;
@@ -13,10 +16,18 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
  .logo-img img{
   box-shadow: 2px 2px 20px white;
-  width: 170px;
+  width: 110px;
   height: 110px;
+}
+
+.logo-img-nav{
+  box-shadow: 2px 2px 20px white;
+  width: 90px;
+  height: 90px;
+  margin-top: 30px;
 }
 .nav .navbar{
   float: right;
@@ -127,3 +138,347 @@ footer img{
   border-radius: 20px;
 }
 
+
+@media only screen and (max-width: 700px){
+  
+}
+
+@media only screen and (max-width: 300px){
+ body{
+  width: min-content;
+  padding: 10px;
+ }
+ .logo-img img{
+  box-shadow: 2px 2px 20px white;
+  width: 100px;
+  height: 110px;
+}
+.navbar{
+  position:fixed;
+  top: 0;
+  background-color: black;
+}
+.logo-img-nav{
+  width: 80px;
+  height: 80px;
+}
+
+/* .collapse{
+  background-color:  rgb(231, 76, 102);
+  z-index: 2;
+} */
+}
+
+ 
+
+/* about css */
+.container-fluid  {
+  color: white;
+  /* height: 1000px; */
+  display: flex;
+  flex-direction: column;
+  
+    }
+    /* card with pic of myself */
+    .card{
+margin-top: 200px;
+z-index: 900;
+margin-left: 150px;
+border: 15px  rgb(240, 78, 105) solid;
+box-shadow: 2px 2px 20px rgb(240, 78, 105) ;
+    }
+h5{
+ font-weight: 700;
+}
+p{
+  font-weight: 700;
+}
+h1{
+color:  rgb(240, 78, 105);
+  font-weight: 900;
+  text-align: center;
+}
+h2{
+font-weight: 800;
+  text-align:center;
+font-family: 'Fira Sans', sans-serif;
+font-size: 30px;
+
+}
+.Work-Experience h2{
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+
+
+}
+h3{
+font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;;
+}
+
+.btn{
+  margin-top: 50px;
+  background-color:  rgb(240, 78, 105);
+      font-size: larger;
+      font-weight: 900;
+      width: 200px;
+      height: 40px;
+      color: black;
+}
+.btn:hover{
+
+  box-shadow: 2px 2px 20px  rgb(240, 78, 105);
+
+
+}
+footer{
+  border-top: 2px solid white;
+  margin-top: 100px;
+  
+  }
+  
+  footer img
+  {
+  justify-content: center;
+  
+  }
+  .copy-right{
+  text-align: center;
+    color: white;
+  }
+
+  .move{
+    margin-right: 10%;
+  }
+  @media only screen and (max-width: 700px){
+  
+  }
+  
+  @media only screen and (max-width: 300px){
+   body{
+    width: min-content;
+   }
+   
+  }
+
+  /* projects css */
+  h1{
+    margin-top: 3rem;
+    font-weight: bold;
+color: rgb(240, 78, 105); 
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+}
+    /* #landing-page .container-fluid{
+  margin-top: 100px; 
+    } */
+    /* position: relative; */
+    /* width: 250px;
+    height: 320px;
+    */
+    /* margin-top: 50px; */
+    /* justify-content: space-around; */
+    /* margin-right: 250px; */
+    /* text-align: center; */
+/* display: flex;
+flex-direction: row; */
+
+.skills img{
+    width: 300px;
+    height: 300px;
+}
+
+ /* .container  .project-1{
+ width: 300px;
+}  */
+p{
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;   
+}
+.btn-primary{
+
+    margin-top: 80px;
+      background-color:  rgb(240, 78, 105);
+      font-size: larger;
+      font-weight: 900;
+      
+      color: black; 
+}
+
+h5{
+font-weight: 600;
+    font-family: 'Fira Sans', sans-serif; 
+}
+@media only screen and (max-width: 700px){
+  
+}
+
+@media only screen and (max-width: 300px){
+ body{
+  width: min-content;
+ }
+ 
+}
+
+/* skills css */
+h1{
+  margin-top: 3rem;
+  font-weight: bold;
+color: rgb(240, 78, 105); 
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+}
+@media only screen and (max-width: 700px){
+
+}
+
+@media only screen and (max-width: 300px){
+body{
+width: min-content;
+}
+
+}
+/* testimonial css */
+h1{
+  text-align: center;
+  color:  rgb(240, 78, 105);
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 60px;
+  font-weight: 900;
+}
+/* h5{
+color:  rgb(240, 78, 105);  
+} */
+
+footer img{
+border-radius: 20px;
+}
+/* card image */
+.container .row  .col img{
+width: 100%;
+}
+
+
+
+.container-fluid .row{
+display: flex;
+flex-direction: row;
+z-index: -1;
+}
+/* contact css */
+ /* contact form styling */
+ .form-containe{
+  display: flex;
+  /* width: 500px;
+  height: 600px; */
+  align-items: center;
+  position: relative;
+ float:right;
+  justify-content: space-between;
+  border-radius: 2px  solid white;
+  margin-right: 600px;
+
+}
+
+
+h2{
+text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+color:  rgb(240, 78, 105);;
+font-weight: 900;
+
+}
+
+.form-control{
+width: 200%;
+}
+#exampleFormControlInput1{
+width: 500px;
+}
+.form-contact{
+margin-left: 35%;
+}
+
+#exampleFormControlTextarea1{
+width: 500px ;
+}
+
+.submit{
+margin-top: 80px;
+background-color:  rgb(240, 78, 105);
+font-size: larger;
+font-weight: 900;
+width: 40%;
+height: 40px;
+color: black;
+transition: ease 0.5s;
+
+}
+img{
+margin-bottom: 30px;
+}
+
+.submit:hover{
+box-shadow: 2px 2px 20px  rgb(240, 78, 105);
+
+}
+
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+@media only screen and (max-width: 700px){
+  /* body{
+    width: min-content;
+    
+} */
+.logo-img-nav{
+  box-shadow: 2px 2px 20px white;
+  width: 90px;
+  height: 90px;
+  margin-top: 2px;
+}
+.callapse{
+  background-color: crimson;
+  position: relative+;
+  top: 0;
+}
+.navbar-nav{
+  background-color: crimson;
+}
+nav {
+  z-index: 900;
+}
+
+.skills .container .row{
+  flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 300px){
+  body{
+    width: min-content;
+    
+}
+.logo-img-nav{
+  box-shadow: 2px 2px 20px white;
+  width: 90px;
+  height: 90px;
+  margin-top: 2px;
+}
+.callapse{
+  background-color: crimson;
+  position: relative+;
+  top: 0;
+}
+.navbar-nav{
+  background-color: crimson;
+}
+nav {
+  z-index: 900;
+}
+
+.skills .container .row{
+  flex-direction: column;
+}
+}
